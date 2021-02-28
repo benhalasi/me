@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full min-h-screen bg-black font-body text-gray-200 p-px">
-    <div class="flex flex-col min-h-full w-full xl:max-w-7xl 2xl:max-w-7xl mx-auto ">
+  <div class="flex w-full min-h-screen bg-black font-body text-gray-200 p-px">
+    <div class="flex flex-col w-full xl:max-w-7xl 2xl:max-w-7xl min-h-full mx-auto ">
       <header class="flex-grow-0 flex flex-wrap sm:flex-nowrap justify-between">
         <div class="font-display text-9xl uppercase border-brutal">
           bh
