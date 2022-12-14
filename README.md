@@ -4,7 +4,7 @@ I originally made this project to have a portfolio, later I realized it has litt
 
 Previously this same thing has been build with `nuxt.js` and it's now using `qwik.js`, of which documentation is below.
 
-This project is deployed via GitHub Pages and is mirrored by [benedek.dev](https://benedek.dev/).
+This project is deployed via [GitHub Pages](https://bhalasi.github.io/bh/) and is mirrored by [benedek.dev](https://benedek.dev/).
 
 ---
 
