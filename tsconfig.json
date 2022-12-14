@@ -1,36 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
-    "esModuleInterop": true,
     "allowJs": true,
-    "sourceMap": true,
+    "target": "ES2017",
+    "module": "ES2020",
+    "lib": ["es2020", "DOM", "WebWorker", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@builder.io/qwik",
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "outDir": "tmp",
     "noEmit": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
+    "types": ["node", "vite/client"],
     "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
-    },
-    "types": [
-      "@nuxt/types",
-      "@types/node"
-    ]
+      "~/*": ["./src/*"]
+    }
   },
-  "exclude": [
-    "node_modules",
-    ".nuxt",
-    "dist"
-  ]
+  "files": ["./.eslintrc.cjs"],
+  "include": ["src"]
 }

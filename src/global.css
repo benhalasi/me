@@ -1,0 +1,23 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@200&display=swap'); */
+}
+
+@layer components {
+  .outline-brutal {
+    @apply transition-opacity outline outline-2 outline-transparent hover:outline-zinc-800 focus-within:outline-zinc-800 dark:hover:outline-zinc-300 dark:focus-within:outline-zinc-300
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@200&display=swap'); */

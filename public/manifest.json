@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "benedek.dev - collection",
+  "short_name": "benedek.dev - collection",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "Project I made to have my play-around-projects collected in a portfolio like style."
+}
