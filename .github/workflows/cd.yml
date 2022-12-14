@@ -24,7 +24,8 @@ jobs:
       with:
         node-version: '16'
     - run: npm ci
-    - run: npm run build
+    - run: mkdir dist/
+    - run: npm run build.server
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v1
       with:
