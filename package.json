@@ -33,7 +33,6 @@
     "autoprefixer": "10.4.13",
     "eslint": "8.29.0",
     "eslint-plugin-qwik": "0.15.2",
-    "firebase-tools": "^11.18.0",
     "node-fetch": "3.3.0",
     "postcss": "^8.4.16",
     "prettier": "2.8.1",
