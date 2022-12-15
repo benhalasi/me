@@ -20,7 +20,7 @@ export default component$(() => {
           <li class="prose-li">
             <a
               class="hover:underline focus:underline"
-              href="https://github.com/bhalasi"
+              href="https://github.com/benhalasi"
               target="_blank"
               rel="noopener noreferrer"
             >

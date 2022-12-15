@@ -30,7 +30,7 @@ export default component$(() => {
         links={{
           BenedekDev: "/" as BenedekDevLink,
           source: {
-            GitHub: "https://github.com/bhalasi/bh",
+            GitHub: "https://github.com/benhalasi/me",
           },
         }}
       >
@@ -117,7 +117,7 @@ export default component$(() => {
         links={{
           source: {
             GitHub:
-              "https://github.com/bhalasi/spring-web-mvc-module-independent-widget",
+              "https://github.com/benhalasi/spring-web-mvc-module-independent-widget",
           },
         }}
       >
