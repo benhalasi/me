@@ -16,5 +16,4 @@ jobs:
       with:
         node-version: '16'
     - run: npm ci
-    - run: mkdir dist/
-    - run: npm run build.server
+    - run: npm run build
