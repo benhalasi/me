@@ -1,9 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Article, {
-  BenedekDevLink,
-  Placeholder,
-} from "~/components/article/article";
+import Article, { BenedekDevLink } from "~/components/article/article";
 
 export const head: DocumentHead = {
   title: "benedek.dev - collection",
