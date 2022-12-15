@@ -2,9 +2,12 @@
 
 I originally made this project to have a portfolio, later I realized it has little to no use as a portfolio, but it is great as a lab-project to try out new frameworks, styles and technologies as easy as possible.
 
-Previously this same thing has been build with `nuxt.js` and it's now using `qwik.js`, of which documentation is below.
+This project is continuously deployed with GitHub workflows and is hosted on GitHub Pages and Google Firebase simultaneously.
 
-This project is deployed via [GitHub Pages](https://benhalasi.github.io/me/) and is mirrored by [benedek.dev](https://benedek.dev/).
+- <a href="https://benhalasi.github.io/me/" target="_blank" rel="noopener noreferrer">benhalasi.github.io/me/ - GitHub Pages Deployment</a>
+- <a href="https://benedek.dev/" target="_blank" rel="noopener noreferrer">benedek.dev - Google Firebase Deployment</a>
+
+Previously this same thing has been build with `nuxt.js` and it's now using `qwik.js`, of which documentation is below.
 
 ---
 
