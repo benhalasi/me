@@ -25,7 +25,7 @@ export default component$(() => {
       style={"grid-auto-rows: minmax(15rem, auto);"}
     >
       <Article
-        name="Collection of Stuff I Made"
+        name="Collection"
         type="XP"
         links={{
           BenedekDev: "/" as BenedekDevLink,
@@ -61,14 +61,32 @@ export default component$(() => {
         </>
       </Article>
       <Article
-        name="Language Learning Webapp"
+        name="Vocab"
         type="SP"
         links={{
           BenedekDev: "https://vocab.benedek.dev/",
-          source: {},
+          source: {
+            GitHub: "https://github.com/benhalasi/vocab",
+          },
         }}
       >
-        <Placeholder />
+        <p>
+          Web Application for building foreign vocabulary, handling users,
+          vocabulary-sets, end other minor things.
+        </p>
+        <div>
+          Stands from multiple applications, orchastrated by kubernetes:
+          <ul class="prose-sm mt-0">
+            <li>db - postgres</li>
+            <li>
+              vocab-core - java, quarkus; responsible for REST endpoints for
+              quering and modifing data, documented with open-api, swagger.
+            </li>
+            <li>
+              vocab-front - nodejs, qwik; responsible UI and authorizing users.
+            </li>
+          </ul>
+        </div>
       </Article>
       <Article
         name="Authentication for Qwik"
@@ -78,12 +96,17 @@ export default component$(() => {
         }}
       >
         <p>
-          Spring Authentication like module for Qwik, to enable an easier
-          implementation of sessions and authorization in qwik projects.
+          It's like the authentication part of Spring Security but for Qwik, to
+          enable an easier implementation of sessions and authorization in qwik
+          projects.
         </p>
         <p>
-          The general goals of the project
-          <ul>
+          Big challange that this project tacles is that Qwik does not have
+          support for general request intercepting (or for AOP).
+        </p>
+        <div>
+          The general goals of the project:
+          <ul class="prose-sm mt-0">
             <li>
               Providing configurable, minimum code{" "}
               <a
@@ -100,16 +123,29 @@ export default component$(() => {
               and authorization related issues.
             </li>
           </ul>
-        </p>
+        </div>
       </Article>
       <Article
         name="Pastry Shop"
         type="POC"
         links={{
-          BenedekDev: "https://pastry.benedek.dev/",
+          source: {
+            GitHub: "https://github.com/benhalasi/pastry",
+          },
         }}
       >
-        <Placeholder />
+        <p>Example website for a pastry shop.</p>
+        <div>
+          stack:
+          <ul class="prose-sm mt-0">
+            <li>spring</li>
+            <li>thymeleaf</li>
+            <li>google material design</li>
+            <li>
+              very special webpack config to work with the java directory system
+            </li>
+          </ul>
+        </div>
       </Article>
       <Article
         name="MVC page independent widget"
@@ -122,9 +158,8 @@ export default component$(() => {
         }}
       >
         <p>
-          Solution to the problem of having the same instance of{" "}
-          <em>interactable UI fragment</em> on multiple pages in an MVC
-          arhitecture.
+          Solution to the problem of having the same or different instances of
+          an <em>'Interactive UI fragment'</em> on multiple pages in an MVC app.
         </p>
       </Article>
     </main>
