@@ -29,7 +29,7 @@ export default component$(() => {
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@200&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Major+Mono+Display:wght@400&family=Poppins:wght@300&display=swap"
           rel="stylesheet"
         />
         <RouterHead />
