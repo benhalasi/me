@@ -7,17 +7,16 @@ export default component$(() => {
         <div class="outline-brutal">bh</div>
       </div>
       <div class="outline-brutal prose prose-sm flex flex-col justify-end p-2 prose-p:my-2 dark:prose-invert sm:max-w-prose">
+        <p>I like to command computers around.</p>
         <p>
-          I like to command computers around and they usually do what I wanted
-          them instead of what i told them to do.
+          I have strong feeling towards Java, especially when it's used for
+          larger products. Sadly, with time, Java is less and less feasible for
+          building user interfaces and to hande that problem I started to use
+          and learn some reactive front-end frameworks.
         </p>
         <p>
-          I do love Java but still realize that javascript on the server side is
-          probably not in the worst 100 things that happend to humanity.
-        </p>
-        <p>
-          This <span class="line-through">is</span> will be the collection of
-          stuff I made and does not make me cry.
+          This site is slowly becoming the collection of the stuff I made and
+          doesn't make me cry.
         </p>
       </div>
     </header>

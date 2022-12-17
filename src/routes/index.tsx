@@ -37,7 +37,7 @@ export default component$(() => {
             portfolio like style.
           </p>
           <p>
-            The stack is quite simple; built with{" "}
+            The stack is quite simple;{" "}
             <a
               href="https://qwik.builder.io/"
               target="_blank"
@@ -53,7 +53,8 @@ export default component$(() => {
             >
               Tailwind
             </a>
-            . Hosted with SSG and GitHub Pages
+            . SSG and deploying with GitHub workflows to GitHub Pages and
+            Firebase.
           </p>
         </>
       </Article>
@@ -68,19 +69,21 @@ export default component$(() => {
         }}
       >
         <p>
-          Web Application for building foreign vocabulary, handling users,
-          vocabulary-sets, end other minor things.
+          Web Application for building foreign vocabulary. It handles users,
+          vocabulary-sets, and produces questions for the users based on their
+          previous answares.
         </p>
         <div>
-          Stands from multiple applications, orchastrated by kubernetes:
+          Current stack, orchastrated by kubernetes:
           <ul class="prose-sm mt-0">
             <li>db - postgres</li>
             <li>
-              vocab-core - java, quarkus; responsible for REST endpoints for
-              quering and modifing data, documented with open-api, swagger.
+              vocab-core - enables querying and modifying data via REST Api
+              documented by open-api and swagger. It's built on java, quarkus.
             </li>
             <li>
-              vocab-front - nodejs, qwik; responsible UI and authorizing users.
+              vocab-front - handles UI and authorizing users, built on nodejs
+              and qwik.
             </li>
           </ul>
         </div>
@@ -133,17 +136,10 @@ export default component$(() => {
         }}
       >
         <p>Example website for a pastry shop.</p>
-        <div>
-          stack:
-          <ul class="prose-sm mt-0">
-            <li>spring</li>
-            <li>thymeleaf</li>
-            <li>google material design</li>
-            <li>
-              very special webpack config to work with the java directory system
-            </li>
-          </ul>
-        </div>
+        <p>
+          The UI is built with Google Material Design, configured with webpack,
+          it also has a fully fledged Java Spring back-end configured.
+        </p>
       </Article>
       <Article
         name="MVC page independent widget"

@@ -6,7 +6,7 @@ export default component$(() => {
       <div class="hidden font-display text-9xl uppercase">bh</div>
       <div class="flex w-full flex-col flex-nowrap justify-end p-2 align-bottom text-sm sm:max-w-max">
         <span class="flex-shrink flex-grow-0 pr-1">
-          Contact me via the InterWeb:
+          Hit me up through the interweb:
         </span>
         <ol class="prose-ol list-inside list-disc">
           <li class="prose-li">
@@ -14,7 +14,7 @@ export default component$(() => {
               href="mailto:aslix1u0n@mozmail.com"
               class="hover:underline focus:underline"
             >
-              email (proxied)
+              Email (proxied)
             </a>
           </li>
           <li class="prose-li">
