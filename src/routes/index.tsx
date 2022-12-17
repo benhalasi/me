@@ -126,6 +126,7 @@ export default component$(() => {
         name="Pastry Shop"
         type="POC"
         links={{
+          BenedekDev: "https://benhalasi.github.io/pastry/" as BenedekDevLink,
           source: {
             GitHub: "https://github.com/benhalasi/pastry",
           },
