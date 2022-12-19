@@ -4,19 +4,20 @@ export type ProjectType = "POC" | "SP" | "XP";
 
 type SubDomain = `${string}.`;
 export type BenedekDevLink = `https://${SubDomain | ""}benedek.dev/${string}`;
+export type GitHubPagesLink = `https://benhalasi.github.io/${string}/${string}`;
 export type GitHubLink = `https://github.com/${string}`;
 export type GitLabLink = `https://gitlab.com/${string}`;
+export type NpmLink = `https://www.npmjs.com/${string}`;
 
 export interface ArticleProps {
   type: ProjectType;
   name: string;
   links?: {
-    BenedekDev?: BenedekDevLink;
+    live?: BenedekDevLink | GitHubPagesLink;
     source?: {
       GitHub?: GitHubLink;
       GitLab?: GitLabLink;
-      Smth?: string;
-      Else?: string;
+      Npm?: NpmLink;
     };
   };
 }
@@ -67,12 +68,10 @@ export default component$((props: ArticleProps) => {
           <span>—</span>
           <span class="pl-1">{props.name}</span>
         </span>
-        {props.links?.BenedekDev ? (
+        {props.links?.live ? (
           <a
-            href={props.links.BenedekDev}
-            target={
-              props.links.BenedekDev.startsWith("http") ? "_blank" : "_top"
-            }
+            href={props.links.live}
+            target={props.links.live.startsWith("http") ? "_blank" : "_top"}
             class="group relative font-display text-xs decoration-zinc-600 hover:underline focus:underline dark:decoration-zinc-400"
           >
             live
