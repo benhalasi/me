@@ -25,7 +25,7 @@ export default component$(() => {
         name="Collection"
         type="XP"
         links={{
-          BenedekDev: "/" as BenedekDevLink,
+          live: "/" as BenedekDevLink,
           source: {
             GitHub: "https://github.com/benhalasi/me",
           },
@@ -62,7 +62,7 @@ export default component$(() => {
         name="Vocab"
         type="SP"
         links={{
-          BenedekDev: "https://vocab.benedek.dev/",
+          live: "https://vocab.benedek.dev/",
           source: {
             GitHub: "https://github.com/benhalasi/vocab",
           },
@@ -129,7 +129,7 @@ export default component$(() => {
         name="Pastry Shop"
         type="POC"
         links={{
-          BenedekDev: "https://benhalasi.github.io/pastry/" as BenedekDevLink,
+          live: "https://benhalasi.github.io/pastry/",
           source: {
             GitHub: "https://github.com/benhalasi/pastry",
           },
@@ -137,8 +137,16 @@ export default component$(() => {
       >
         <p>Example website for a pastry shop.</p>
         <p>
-          The UI is built with Google Material Design, configured with webpack,
-          it also has a fully fledged Java Spring back-end configured.
+          The UI is built with{" "}
+          <a
+            href="https://m2.material.io/design"
+            target="gmd"
+            rel="noopener noreferrer"
+          >
+            Google Material Design
+          </a>
+          , configured with webpack, it also has a fully fledged Java Spring
+          back-end configured.
         </p>
       </Article>
       <Article
