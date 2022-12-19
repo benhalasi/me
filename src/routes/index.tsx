@@ -127,7 +127,7 @@ export default component$(() => {
       </Article>
       <Article
         name="Heroicons for Qwik"
-        type="SP"
+        type="XP"
         links={{
           source: {
             GitHub: "https://github.com/benhalasi/heroicons-x-qwik",
@@ -178,21 +178,6 @@ export default component$(() => {
         </p>
       </Article>
       <Article
-        name="MVC page independent widget"
-        type="POC"
-        links={{
-          source: {
-            GitHub:
-              "https://github.com/benhalasi/spring-web-mvc-module-independent-widget",
-          },
-        }}
-      >
-        <p>
-          Solution to the problem of having the same or different instances of
-          an <em>'Interactive UI fragment'</em> on multiple pages in an MVC app.
-        </p>
-      </Article>
-      <Article
         name="User Presentable Logger"
         type="XP"
         links={{
@@ -211,6 +196,46 @@ export default component$(() => {
           dashboard with ongoing jobs, unresolved issues, unexpected or expected
           events is neccessary.
         </p>
+      </Article>
+      <Article
+        name="MVC Widgets"
+        type="POC"
+        links={{
+          source: {
+            GitHub:
+              "https://github.com/benhalasi/spring-web-mvc-module-independent-widget",
+          },
+        }}
+      >
+        <p>
+          Solution to the problem of having the same or different instances of
+          an <em>'Interactive UI fragment'</em> on multiple pages in an MVC app.
+        </p>
+      </Article>
+      <Article
+        name="Cellular Automaton"
+        type="XP"
+        links={{
+          source: {
+            GitHub: "https://github.com/benhalasi/cellular-automaton",
+          },
+        }}
+      >
+        <p>
+          Cell automaton library written in Java for{" "}
+          <em>Conway's game of life</em> like simulations.
+        </p>
+        <p>
+          It aims at handling low-level implementation details; building the
+          cellular grid, mapping neighbours, handling state changes and so on.
+        </p>
+        <div>
+          <ul class="prose-sm mt-0">
+            <li>Runner that handles iterations and exporting to bmp</li>
+            <li>Some prewritten algorithms as example</li>
+            <li>Exporting to bmp</li>
+          </ul>
+        </div>
       </Article>
     </main>
   );
