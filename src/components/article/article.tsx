@@ -22,6 +22,12 @@ export interface ArticleProps {
   };
 }
 
+export const Placeholder = component$(() => (
+  <div class="flex h-full w-full">
+    <div class="m-auto">Such Empty</div>
+  </div>
+));
+
 export default component$((props: ArticleProps) => {
   const sources = () => {
     if (!props.links?.source) return <></>;
@@ -96,9 +102,3 @@ export default component$((props: ArticleProps) => {
     </article>
   );
 });
-
-export const Placeholder = component$(() => (
-  <div class="flex h-full w-full">
-    <div class="m-auto">Such Empty</div>
-  </div>
-));
