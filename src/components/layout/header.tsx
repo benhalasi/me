@@ -9,10 +9,8 @@ export default component$(() => {
       <div class="outline-brutal prose prose-sm flex flex-col justify-end p-2 prose-p:my-2 dark:prose-invert sm:max-w-prose">
         <p>I like to command computers around.</p>
         <p>
-          I have strong feeling towards Java, especially when it's used for
-          larger products. Sadly, with time, Java is less and less feasible for
-          building user interfaces and to hande that problem I started to use
-          and learn some reactive front-end frameworks.
+          I do love Java but still realize that javascript on the server side is
+          probably not the worst thing that happend to humanity.
         </p>
         <p>
           This site is slowly becoming the collection of the stuff I made and
