@@ -29,7 +29,7 @@
     "@types/eslint": "8.4.10",
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.50.0",
-    "@typescript-eslint/parser": "5.50.0",
+    "@typescript-eslint/parser": "5.52.0",
     "autoprefixer": "10.4.13",
     "eslint": "8.33.0",
     "eslint-plugin-qwik": "0.17.4",
